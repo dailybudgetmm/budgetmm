@@ -1,0 +1,87 @@
+ard" id="46218"}
+Upgrade and finalize my My Daily Budget finance web app into a professional production-level product.
+
+First remove the Phone Number Login feature completely because it is causing errors.  
+Keep Google Login only for authentication.
+
+Then improve and add the following professional features while keeping the current modern UI style (cards, gradients, mobile-first).
+
+CORE FEATURES:
+
+1. Transaction System  
+- Add income and expense transactions  
+- Transaction history page  
+- Edit transaction  
+- Delete transaction  
+- Category icons and colors  
+- Date and notes
+
+2. Category Management  
+- Default categories (Food, Transport, Shopping, Bills, Rent, Health, Entertainment)  
+- Add custom category  
+- Edit category  
+- Delete category  
+- Category icon picker
+
+3. Budget System  
+- Set monthly budget per category  
+- Progress bar for budget usage  
+- Warning notification when budget reaches 80% or 100%
+
+4. Dashboard Improvements  
+- Total Balance  
+- Monthly Income  
+- Monthly Expense  
+- Net Savings  
+- Today's spending  
+- Weekly spending  
+- Top spending category  
+- Savings rate
+
+5. Reports Page  
+- Pie chart for spending by category  
+- Bar chart for monthly expenses  
+- Line chart for daily spending trends
+
+6. Search and Filters  
+- Search transactions  
+- Filter by date  
+- Filter by category  
+- Filter by income or expense
+
+7. Recurring Transactions  
+- Daily  
+- Weekly  
+- Monthly  
+- Yearly automatic transactions
+
+8. Savings Goals  
+User can create savings goals like Laptop, Travel, Emergency Fund and track progress.
+
+9. Multi Currency Support  
+Allow user to select currency: THB, MMK, USD.
+
+10. Notifications  
+- Daily reminder to record expenses  
+- Budget warning alerts
+
+11. Offline Support  
+App should work offline using local storage and sync later.
+
+12. Data Backup  
+Enable cloud data backup linked to Google login so user data is saved if phone is lost or changed.
+
+13. Settings Page  
+Include Language switch (Myanmar / English), Currency selection, Dark mode toggle, Export data option.
+
+14. Data Export
+Allow exporting financial data to CSV and PDF.
+
+15. UI Improvements
+Smooth animations, loading skeletons, mobile optimized design, floating quick add button.
+
+FINAL GOAL:
+
+Turn this app into a clean, modern, mobile-friendly personal finance manager suitable for real users in Myanmar.
+
+Ensure clean UI, stable login, fast performance and sca

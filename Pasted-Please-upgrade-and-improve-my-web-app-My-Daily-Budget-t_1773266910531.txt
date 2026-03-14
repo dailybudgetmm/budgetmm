@@ -1,0 +1,195 @@
+Please upgrade and improve my web app “My Daily Budget” to make it more professional, reliable, and user-friendly for long-term daily use.
+
+The app is already working, so do NOT break existing features like:
+• Google Login
+• Dashboard
+• Expense tracking
+• Category icons
+• Language switcher
+
+Only improve and add the following features.
+
+⸻
+
+	1.	Fix Phone Number Login (Firebase OTP)
+
+The phone login currently shows:
+Firebase Error (auth/argument-error)
+
+Please properly implement Firebase phone authentication with OTP verification.
+
+Flow:
+
+• User enters phone number
+• Firebase sends OTP SMS
+• User enters OTP code
+• Verify OTP
+• Login successful
+
+Add:
+
+• Loading spinner while sending OTP
+• Friendly error messages
+• Retry OTP option
+
+Do NOT remove the Google login.
+
+⸻
+
+	2.	Professional Support / Contact Section
+
+Add a Support & Contact section in the footer.
+
+When users tap a button it should open the correct platform.
+
+Support links:
+
+Facebook Page
+https://facebook.com/mydailybudget
+
+Telegram Support
+https://t.me/MyDailyBudget
+
+Email Support
+mailto:mydailybudgetmm@gmail.com
+
+Buttons should behave like:
+
+Facebook button
+→ Opens Facebook page
+
+Telegram button
+→ Opens Telegram chat
+
+Email button
+→ Opens email app
+
+Design:
+
+• Facebook icon
+• Telegram icon
+• Email icon
+• Card style buttons
+• Mobile friendly layout
+
+Example layout:
+
+Support & Contact
+
+[ Facebook Page ]
+[ Telegram Support ]
+[ Email Support ]
+
+⸻
+
+	3.	Improve Footer Design
+
+Update footer to look professional.
+
+Footer content:
+
+My Daily Budget © 2026
+
+Links:
+
+Contact
+Privacy Policy
+Terms of Service
+
+⸻
+
+	4.	Add Splash Screen
+
+Create a clean splash screen when the app loads.
+
+Show:
+
+• App Logo
+• App name: My Daily Budget
+
+Display for about 2 seconds before loading the dashboard.
+
+⸻
+
+	5.	Add Dark Mode
+
+Add a toggle for Light Mode and Dark Mode.
+
+Dark mode should include:
+
+• Dark background
+• Soft text colors
+• Clean UI
+• Smooth transition animation
+
+User preference should be saved.
+
+⸻
+
+	6.	Automatic Cloud Backup
+
+Use Firebase database to automatically save user data.
+
+Requirements:
+
+• Automatically store all expense data
+• Data persists when user logs in again
+• Secure user data per account
+
+⸻
+
+	7.	Export Data Feature
+
+Allow users to export their data.
+
+Add buttons:
+
+Export to Excel
+Export to PDF
+
+Export should include:
+
+• Date
+• Category
+• Amount
+• Notes
+
+⸻
+
+	8.	Monthly Report Chart
+
+Add a monthly analytics section.
+
+Show:
+
+• Expense summary
+• Category breakdown
+• Monthly spending chart
+
+Use clean chart design.
+
+⸻
+
+	9.	Improve Mobile UI
+
+Make the app feel like a real mobile app.
+
+Add:
+
+• Better spacing
+• Smooth animations
+• Loading indicators
+• Clean button layout
+
+⸻
+
+Goal:
+
+Make the app feel like a professional budget management application that users can comfortably use every day for a long time.
+
+Focus on:
+
+• clean design
+• reliability
+• simplicity
+• mobile friendliness

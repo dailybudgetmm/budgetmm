@@ -1,0 +1,636 @@
+
+:::writing{variant="standard" id="48361"}
+Build a Professional Personal Finance Web App called My Daily Budget.
+
+The app should be clean, modern, mobile-first, and production ready.
+
+Current features already exist:
+- Login with Google
+- Dashboard
+- Add Income
+- Add Expense
+- Categories
+- Reports
+- Profile & Settings
+- Export to Excel / PDF
+
+Now upgrade the app into a full professional finance tracker with the following features.
+
+--------------------------------
+
+GENERAL REQUIREMENTS
+
+- Mobile-first responsive design
+- Modern UI with smooth animations
+- Clean cards and soft gradients
+- Fast loading
+- Offline support
+- Dark mode support
+- Progressive Web App (PWA)
+
+Use:
+- Clean modular code
+- Reusable components
+- Error handling
+- Loading states
+- Empty states
+
+--------------------------------
+
+1. DASHBOARD IMPROVEMENTS
+
+Dashboard should show:
+
+• Current Balance  
+• Total Income (Month)  
+• Total Expense (Month)  
+• Remaining Budget  
+• Today's Spending  
+• Weekly Spending  
+• Top Spending Category  
+
+Charts:
+
+• Pie Chart for category spending  
+• Line Chart for daily spending trend  
+• Monthly comparison chart  
+
+Widgets:
+
+• Last 5 transactions  
+• Budget progress bars  
+
+--------------------------------
+
+2. BUDGET LIMIT SYSTEM
+
+Allow users to set monthly budget limits per category
+
+Example:
+Food Budget = 3000 THB
+
+Features:
+• Budget progress bar  
+• Warning at 80% usage  
+• Alert when budget exceeded  
+
+Display in dashboard and reports.
+
+--------------------------------
+
+3. RECURRING TRANSACTIONS
+
+Allow users to create repeating transactions.
+
+Examples:
+• Rent
+• Salary
+• Netflix
+• Loan payment
+
+Options:
+• Daily
+• Weekly
+• Monthly
+• Yearly
+
+Automatically generate the transaction.
+
+--------------------------------
+
+4. ADVANCED REPORTS
+
+Create a full reports page.
+
+Charts:
+
+• Category spending pie chart
+• Monthly expense bar chart
+• Daily spending line chart
+• Income vs Expense comparison
+
+Reports:
+
+• Daily report
+• Weekly report
+• Monthly report
+• Yearly report
+
+Export options:
+
+• Excel
+• PDF
+• CSV
+
+--------------------------------
+
+5. SEARCH & FILTER SYSTEM
+
+Users should be able to search transactions.
+
+Search by:
+• Note
+• Category
+
+Filters:
+
+• Date range
+• Category
+• Income / Expense
+• Amount range
+
+--------------------------------
+
+6. MULTI-CURRENCY SUPPORT
+
+Allow currency selection.
+
+Supported currencies:
+
+• THB
+• MMK
+• USD
+• EUR
+• SGD
+
+Save default currency in user settings.
+
+--------------------------------
+
+7. DARK MODE
+
+Add theme switching.
+
+Modes:
+
+• Light
+• Dark
+• Auto (system)
+
+Save preference in settings.
+
+--------------------------------
+
+8. CLOUD BACKUP
+
+Implement cloud storage for user data.
+
+Features:
+
+• Auto backup
+• Manual backup
+• Restore backup
+
+Database options:
+• PostgreSQL
+• Supabase
+• Firebase
+
+--------------------------------
+
+9. SECURITY FEATURES
+
+Add security options:
+
+• PIN Lock
+• FaceID / Fingerprint support
+• Auto logout after inactivity
+• Secure authentication
+
+--------------------------------
+
+10. NOTIFICATIONS
+
+Add reminders:
+
+Daily notification:
+"Don't forget to record today's expenses."
+
+Budget alerts:
+
+"You have used 80% of your Food budget."
+
+--------------------------------
+
+11. CUSTOM CATEGORY SYSTEM
+
+Allow users to manage categories.
+
+Features:
+
+• Add category
+• Edit category
+• Delete category
+• Choose icon
+• Choose color
+
+--------------------------------
+
+12. RECEIPT PHOTO UPLOAD
+
+Allow users to attach receipts.
+
+Features:
+
+• Upload image
+• Take photo
+• Save with transaction
+
+--------------------------------
+
+13. AI SPENDING INSIGHTS
+
+Add simple AI analysis.
+
+Examples:
+
+"You spent 30% more on food this week."
+
+"You saved 200 THB compared to last week."
+
+Display insights on dashboard.
+
+--------------------------------
+
+14. OFFLINE MODE
+
+Allow users to use the app without internet.
+
+Features:
+
+• Local storage caching
+• Sync when connection returns
+
+--------------------------------
+
+15. PWA SUPPORT
+
+Make the app installable.
+
+Features:
+
+• Install to home screen
+• Offline support
+• App icon
+• Splash screen
+
+--------------------------------
+
+16. MULTI-LANGUAGE SUPPORT
+
+Languages:
+
+• English
+• Burmese
+• Thai
+• Chinese
+
+Language switch in settings.
+
+--------------------------------
+
+17. PROFILE MANAGEMENT
+
+User profile features:
+
+• Edit name
+• Upload profile picture
+• Change email
+• Change password
+• Delete account
+
+--------------------------------
+
+18. ADVANCED ANALYTICS
+
+Analytics page should show:
+
+• Spending trend
+• Saving rate
+• Income vs Expense ratio
+• Monthly comparison
+
+--------------------------------
+
+19. DATABASE STRUCTURE
+
+Create structured database tables.
+
+Tables:
+
+users
+transactions
+categories
+budgets
+recurring_transactions
+settings
+attachments
+
+--------------------------------
+
+20. TRANSACTION SYSTEM
+
+Transaction model should include:
+
+• id
+• user_id
+• type (income or expense)
+• category
+• amount
+• currency
+• date
+• note
+• receipt_image
+• created_at
+
+--------------------------------
+
+21. UI IMPROVEMENTS
+
+Improve UX with:
+
+• Floating add button
+• Smooth transitions
+• Skeleton loading
+• Empty state illustrations
+• Better icons
+• Card layout
+• Modern gradients
+
+--------------------------------
+
+22. APPLICATION STRUCTURE
+
+Pages should include:
+
+Dashboard
+Transactions
+Add Transaction
+Budgets
+Reports
+Analytics
+Categories
+Profile
+Settings
+
+--------------------------------
+
+23. PERFORMANCE
+
+Optimize for:
+
+• Fast loading
+• Lazy loading charts
+• Efficient queries
+• Mobile performance
+
+--------------------------------
+
+24. ERROR HANDLING
+
+Handle errors gracefully.
+
+Examples:
+
+• Network errors
+• Invalid input
+• Server errors
+
+Show user friendly messages.
+
+--------------------------------
+
+25. FINAL GOAL
+
+The application should feel like a professional finance tracking product similar to modern budgeting apps.
+
+Focus on:
+
+• Clean UI
+• Smooth UX
+• Reliable data handling
+• Mobile-first experience
+• Real world usability
+
+--------------------
+
+Return clean organized code and maintainable structure.
+
+nue Prompt)
+
+ဒီ block ကို မင်း prompt အောက်မှာ paste လုပ်လိုက်။
+
+:::writing{variant="standard" id="72814"}
+--------------------------------
+
+26. SAVINGS GOALS SYSTEM
+
+Allow users to create savings goals.
+
+Examples:
+• New Phone
+• Emergency Fund
+• Travel Fund
+
+Features:
+
+• Set target amount
+• Track progress
+• Show progress bar
+• Show remaining amount
+• Show estimated completion date
+
+Display savings goals on dashboard.
+
+--------------------------------
+
+27. SHARED FAMILY BUDGET
+
+Allow multiple users to share one budget account.
+
+Features:
+
+• Invite family member
+• Shared transactions
+• Shared categories
+• Shared budget limits
+
+Roles:
+
+• Owner
+• Member
+
+--------------------------------
+
+28. SMART SUGGESTIONS
+
+Use transaction history to suggest categories.
+
+Example:
+
+If user types "Pizza"
+
+Auto suggest category:
+
+Food
+
+--------------------------------
+
+29. QUICK ADD TRANSACTION
+
+Add a floating quick add button.
+
+User can quickly add expense in 3 seconds.
+
+Fields:
+
+• Amount
+• Category
+• Note (optional)
+
+--------------------------------
+
+30. SMART SEARCH
+
+Improve search with:
+
+• Instant results
+• Category suggestions
+• Recent searches
+
+--------------------------------
+
+31. FINANCIAL HEALTH SCORE
+
+Calculate a financial health score.
+
+Factors:
+
+• Saving rate
+• Spending ratio
+• Budget control
+
+Score example:
+
+72 / 100
+
+Display with color indicator.
+
+--------------------------------
+
+32. MONTHLY SUMMARY REPORT
+
+Automatically generate monthly summary.
+
+Example:
+
+"You spent 3200 THB this month."
+"You saved 800 THB compared to last month."
+
+--------------------------------
+
+33. DATA EXPORT & IMPORT
+
+Allow full data export and import.
+
+Formats:
+
+• JSON
+• CSV
+• Excel
+
+Allow restoring all data.
+
+--------------------------------
+
+34. APP SETTINGS SYSTEM
+
+Create full settings page.
+
+Options:
+
+• Currency
+• Language
+• Dark mode
+• Notification settings
+• Security settings
+
+--------------------------------
+
+35. SMART NOTIFICATION SYSTEM
+
+Send notifications for:
+
+• Budget exceeded
+• Daily expense reminder
+• Monthly report ready
+
+--------------------------------
+
+36. TRANSACTION TAGS
+
+Allow tagging transactions.
+
+Example tags:
+
+• Work
+• Personal
+• Business
+
+--------------------------------
+
+37. INSTALLABLE MOBILE EXPERIENCE
+
+Improve PWA to feel like real mobile app.
+
+Add:
+
+• Splash screen
+• App icon
+• Offline fallback page
+
+--------------------------------
+
+38. LOADING PERFORMANCE
+
+Improve speed with:
+
+• Code splitting
+• Lazy loaded charts
+• Optimized database queries
+
+--------------------------------
+
+39. USER ONBOARDING FLOW
+
+First time users should see onboarding screens.
+
+Explain:
+
+• How to add expenses
+• How budgets work
+• How reports work
+
+--------------------------------
+
+40. ERROR LOGGING SYSTEM
+
+Implement logging system.
+
+Log:
+
+• Server errors
+• Failed requests
+• Authentication issues
+
+--------------------------------
+
+FINAL TARGET
+
+The app should feel like a professional finance tracking product similar to modern apps such as Mint or YNAB.
+
+Focus on • Clean modern UI
+• Fast performance
+• Real world usability
+• Scalable architecture
+• Reliable data storage
